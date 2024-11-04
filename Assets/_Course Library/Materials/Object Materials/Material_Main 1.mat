@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Material_Main
+  m_Name: Material_Main 1
   m_Shader: {fileID: -6465566751694194690, guid: 8f1d4cbe97374864ca4a8b3f99fab260,
     type: 3}
   m_Parent: {fileID: 2100000, guid: b4d6302e31e55472d96a0cbb775a6314, type: 2}
@@ -40,11 +40,11 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _RimPower: 1.21
-    - _Rim_Light_Brightness: 2.59
+    - _RimPower: -0.97
+    - _Rim_Light_Brightness: 0
     - _Smoothness: 0.397
-    - _Toon_Ramp_Offset: 0.57
-    - _Toon_Ramp_Smoothness: 0.06
+    - _Toon_Ramp_Offset: 0.01
+    - _Toon_Ramp_Smoothness: -0.24
     m_Colors:
-    - _Toon_Ramp_Tinting: {r: 0.08679241, g: 0.08679241, b: 0.08679241, a: 0}
+    - _Toon_Ramp_Tinting: {r: 0.14716971, g: 0.14716971, b: 0.14716971, a: 0}
   m_BuildTextureStacks: []
