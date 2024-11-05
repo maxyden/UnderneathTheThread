@@ -43,7 +43,7 @@ Material:
     - _RimPower: 1.21
     - _Rim_Light_Brightness: 2.59
     - _Smoothness: 0.397
-    - _Toon_Ramp_Offset: 0.57
+    - _Toon_Ramp_Offset: 0.85
     - _Toon_Ramp_Smoothness: 0.06
     m_Colors:
     - _Toon_Ramp_Tinting: {r: 0.08679241, g: 0.08679241, b: 0.08679241, a: 0}
