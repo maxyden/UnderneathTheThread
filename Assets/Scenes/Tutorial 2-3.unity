@@ -8866,6 +8866,7 @@ MonoBehaviour:
 --- !u!54 &1228065059
 Rigidbody:
   m_ObjectHideFlags: 0
+<<<<<<< Updated upstream:Assets/Scenes/Tutorial 2-3.unity
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8892,6 +8893,143 @@ Rigidbody:
   m_CollisionDetection: 2
 --- !u!114 &1228065060
 MonoBehaviour:
+=======
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3517466829281958088, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_Name
+      value: Chair_Traditional_Dark
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.018144608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89422095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.44762594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 53.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295129875513229938, guid: 2a5416c2645dd1b469ac4b962af63a77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a5416c2645dd1b469ac4b962af63a77, type: 3}
+--- !u!1001 &1814280611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4409838
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8379
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5782746
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000007599591
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484746546667990539, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967950758205879473, guid: 3dabf4d9563cdc0468cf785661c2ff17,
+        type: 3}
+      propertyPath: m_Name
+      value: Camera_Photograph
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3dabf4d9563cdc0468cf785661c2ff17, type: 3}
+--- !u!1001 &1816084227
+PrefabInstance:
+>>>>>>> Stashed changes:Assets/Scenes/Maxscenebaord.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11540,6 +11678,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< Updated upstream:Assets/Scenes/Tutorial 2-3.unity
   - {fileID: 410087041}
   - {fileID: 1735264986}
   - {fileID: 10799973}
@@ -11591,3 +11730,84 @@ SceneRoots:
   - {fileID: 885489557}
   - {fileID: 629110916}
   - {fileID: 583417883}
+=======
+  - {fileID: 941142887}
+  - {fileID: 172006376}
+  - {fileID: 2019785796}
+  - {fileID: 393662426}
+  - {fileID: 1174134155}
+  - {fileID: 1863073178}
+  - {fileID: 1935905595}
+  - {fileID: 1177718203}
+  - {fileID: 1474277440}
+  - {fileID: 1701786510}
+  - {fileID: 1064391348}
+  - {fileID: 90346443}
+  - {fileID: 1500343806}
+  - {fileID: 1649873526}
+  - {fileID: 2074619963}
+  - {fileID: 1323451950}
+  - {fileID: 940601904}
+  - {fileID: 1400460275}
+  - {fileID: 1597855833}
+  - {fileID: 494759723}
+  - {fileID: 990515477}
+  - {fileID: 1808588933}
+  - {fileID: 1769303787}
+  - {fileID: 316047591}
+  - {fileID: 1199760019}
+  - {fileID: 1106798696}
+  - {fileID: 109028578}
+  - {fileID: 631116783}
+  - {fileID: 1326005930}
+  - {fileID: 1902560457}
+  - {fileID: 1669863775}
+  - {fileID: 1609998701}
+  - {fileID: 1300129274}
+  - {fileID: 93515226}
+  - {fileID: 1611368749}
+  - {fileID: 526499711}
+  - {fileID: 1119964334}
+  - {fileID: 1029375202}
+  - {fileID: 1905381534}
+  - {fileID: 369720975}
+  - {fileID: 1106756173}
+  - {fileID: 1524817026}
+  - {fileID: 1495780099}
+  - {fileID: 1191314801}
+  - {fileID: 223529880}
+  - {fileID: 777368175}
+  - {fileID: 512759167}
+  - {fileID: 2109142406}
+  - {fileID: 472375413}
+  - {fileID: 2050578819}
+  - {fileID: 1943147253}
+  - {fileID: 1711336977}
+  - {fileID: 533669615}
+  - {fileID: 1923051451}
+  - {fileID: 1816084227}
+  - {fileID: 274546026}
+  - {fileID: 489554541}
+  - {fileID: 438342604}
+  - {fileID: 393047660}
+  - {fileID: 1676526176}
+  - {fileID: 340945790}
+  - {fileID: 1950298098}
+  - {fileID: 2131848373}
+  - {fileID: 1301760999}
+  - {fileID: 1572321116}
+  - {fileID: 2012186956}
+  - {fileID: 685988586}
+  - {fileID: 1611532250}
+  - {fileID: 388475583}
+  - {fileID: 138079535}
+  - {fileID: 1925667909}
+  - {fileID: 143234248}
+  - {fileID: 1231556596238063708}
+  - {fileID: 838189174}
+  - {fileID: 1095966724}
+  - {fileID: 2129096310}
+  - {fileID: 1913133473}
+  - {fileID: 937222886}
+  - {fileID: 1814280611}
+>>>>>>> Stashed changes:Assets/Scenes/Maxscenebaord.unity
