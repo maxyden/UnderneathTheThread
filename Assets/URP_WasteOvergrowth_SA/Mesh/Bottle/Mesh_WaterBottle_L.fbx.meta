@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88edcbe1f25ae30499a98165782eafc9
+guid: 158a8ed32f407194ab876690d007058e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -78,7 +78,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []

@@ -4466,17 +4466,17 @@ PrefabInstance:
     - target: {fileID: 6340363407920857541, guid: f4121ad037d29c24f950b9d4c2e3382f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.109
+      value: 3.064
       objectReference: {fileID: 0}
     - target: {fileID: 6340363407920857541, guid: f4121ad037d29c24f950b9d4c2e3382f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.934999
+      value: 9.976
       objectReference: {fileID: 0}
     - target: {fileID: 6340363407920857541, guid: f4121ad037d29c24f950b9d4c2e3382f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.27
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6340363407920857541, guid: f4121ad037d29c24f950b9d4c2e3382f,
         type: 3}
@@ -4765,46 +4765,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cheryl_Journal
-      objectReference: {fileID: 0}
-    - target: {fileID: 2573732908243799022, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_Limits.max
-      value: 175
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_Motor.force
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: -0.3599882
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -17.129993
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.z
-      value: -16.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 3048753791619730123, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_Motor.targetVelocity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3564312846288867170, guid: 2df922cf9399ed74d88e12d8c9c905b4,
-        type: 3}
-      propertyPath: m_ForceGravityOnDetach
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
