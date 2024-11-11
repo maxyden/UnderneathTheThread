@@ -100,8 +100,8 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Toon_Ramp_Offset: 0.7
-    - _Toon_Ramp_Smoothness: 3
+    - _Toon_Ramp_Offset: 0.61
+    - _Toon_Ramp_Smoothness: 0.07
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

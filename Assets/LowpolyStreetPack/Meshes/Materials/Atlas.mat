@@ -55,12 +55,12 @@ Material:
     - _RimPower: 5
     - _Rim_Light_Brightness: 1
     - _Shininess: 0.01669871
-    - _Toon_Ramp_Offset: 0.8
-    - _Toon_Ramp_Smoothness: 1
+    - _Toon_Ramp_Offset: 0.86
+    - _Toon_Ramp_Smoothness: 0.08
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.64705884, g: 0.6175277, b: 0.21885815, a: 1}
-    - _Toon_Ramp_Tinting: {r: 0, g: 0, b: 0, a: 0}
+    - _Toon_Ramp_Tinting: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &54594892168012325
 MonoBehaviour:
