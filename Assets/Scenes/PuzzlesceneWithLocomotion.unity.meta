@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Clue_Polaroid.meta
+guid: 72aaf2c9f969a3d43a3d9f0c0d395418
+folderAsset: yes
+========
 guid: 87d8194b35ba2fe46998b9a644557293
+>>>>>>>> main:Assets/Scenes/PuzzlesceneWithLocomotion.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
