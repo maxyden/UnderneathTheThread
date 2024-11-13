@@ -2482,7 +2482,7 @@ PrefabInstance:
     - target: {fileID: 2967950758205879473, guid: 3dabf4d9563cdc0468cf785661c2ff17,
         type: 3}
       propertyPath: m_Name
-      value: TEST_POLAROID2?
+      value: WORKING_POLAROID
       objectReference: {fileID: 0}
     - target: {fileID: 7460367757188879154, guid: 3dabf4d9563cdc0468cf785661c2ff17,
         type: 3}
