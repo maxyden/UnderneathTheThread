@@ -8550,6 +8550,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3146419608257257463, guid: 10dfa307b327bd84dbea02fe6a1a239a,
         type: 3}
+      propertyPath: spawnPoint1
+      value: 
+      objectReference: {fileID: 859283373}
+    - target: {fileID: 3146419608257257463, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: spawnPoint2
+      value: 
+      objectReference: {fileID: 3200292471290140969}
+    - target: {fileID: 3146419608257257463, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
       propertyPath: fadeCanvasGroup
       value: 
       objectReference: {fileID: 469125865}
