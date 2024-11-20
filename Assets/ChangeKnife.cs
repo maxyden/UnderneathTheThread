@@ -1,33 +1,33 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 /// <summary>
 /// This script makes it easier to toggle between a new material, and the objects original material.
 /// </summary>
-public class ChangeMaterial : MonoBehaviour
+public class ChangeKnife : MonoBehaviour
 {
     [Tooltip("The material that's switched to.")]
     public Material otherMaterial = null;
 
     private bool usingOther = false;
-    private MeshRenderer meshRenderer = null;
+    private SkinnedMeshRenderer skinnedmeshRenderer = null;
     private Material originalMaterial = null;
 
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-        originalMaterial = meshRenderer.material;
+        skinnedmeshRenderer = GetComponent<SkinnedMeshRenderer>();
+        originalMaterial = skinnedmeshRenderer.material;
     }
 
     public void SetOtherMaterial()
     {
         usingOther = true;
-        meshRenderer.material = otherMaterial;
+        skinnedmeshRenderer.material = otherMaterial;
     }
 
     public void SetOriginalMaterial()
     {
         usingOther = false;
-        meshRenderer.material = originalMaterial;
+        skinnedmeshRenderer.material = originalMaterial;
     }
 
     public void ToggleMaterial()
@@ -36,11 +36,11 @@ public class ChangeMaterial : MonoBehaviour
 
         if (usingOther)
         {
-            meshRenderer.material = otherMaterial;
+            skinnedmeshRenderer.material = otherMaterial;
         }
         else
         {
-            meshRenderer.material = originalMaterial;
+            skinnedmeshRenderer.material = originalMaterial;
         }
     }
 }
