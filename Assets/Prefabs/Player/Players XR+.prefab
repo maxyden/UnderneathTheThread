@@ -1341,6 +1341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4295430422085670822}
+  - component: {fileID: 3146419608257257463}
   m_Layer: 0
   m_Name: Players XR+
   m_TagString: Untagged
@@ -1366,6 +1367,26 @@ Transform:
   - {fileID: 2131704932263287286}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -165, z: 0}
+--- !u!114 &3146419608257257463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5722781267447218171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b33430a33d6f1242b67e43ab7f18652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - name: Board Room
+    location: {fileID: 0}
+  - name: Alley way
+    location: {fileID: 0}
+  fadeDuration: 1
+  moveDuration: 0.5
+  fadeCanvasGroup: {fileID: 0}
 --- !u!1 &7255051912395789566
 GameObject:
   m_ObjectHideFlags: 0
