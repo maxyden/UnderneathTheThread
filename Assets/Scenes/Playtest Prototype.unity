@@ -2304,6 +2304,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739738232}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!1 &169648643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169648644}
+  m_Layer: 0
+  m_Name: Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &169648644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169648643}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.99999964, z: -0, w: -0.00084277976}
+  m_LocalPosition: {x: 0.0061, y: 0, z: 0.1143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1426315802}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.097, z: 0}
 --- !u!4 &204733089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2194596261931701327, guid: e8f8deb5a30624e479e669f8e64613b8,
@@ -5941,7 +5972,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2140264580367398490, guid: e07009c18ceb1f946a3576ab292f4faf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 169648644}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e07009c18ceb1f946a3576ab292f4faf, type: 3}
 --- !u!1 &585252962
@@ -14204,6 +14239,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1823468475674012529, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823468475674012529, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticSelectEnterIntensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3146419608257257463, guid: 10dfa307b327bd84dbea02fe6a1a239a,
         type: 3}
       propertyPath: m_Enabled
@@ -14234,6 +14279,26 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[1].location
       value: 
       objectReference: {fileID: 3200292471290140969}
+    - target: {fileID: 4237819966766914572, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HideControllerOnSelect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237819966766914572, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237819966766914572, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_AudioClipForOnSelectEntered
+      value: 
+      objectReference: {fileID: 8300000, guid: 5fa2a1e03047f4f37a8f475c272636e7, type: 3}
+    - target: {fileID: 4237819966766914572, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_PlayAudioClipOnHoverEntered
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4295430422085670822, guid: 10dfa307b327bd84dbea02fe6a1a239a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14289,6 +14354,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Players XR+
       objectReference: {fileID: 0}
+    - target: {fileID: 6041373331260960929, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041373331260960929, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticSelectEnterIntensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6811413089117582146, guid: 10dfa307b327bd84dbea02fe6a1a239a,
         type: 3}
       propertyPath: m_Cameras.Array.size
@@ -14299,6 +14374,26 @@ PrefabInstance:
       propertyPath: m_Cameras.Array.data[0]
       value: 
       objectReference: {fileID: 374632246}
+    - target: {fileID: 8488190200443167729, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HideControllerOnSelect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8488190200443167729, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_HapticHoverEnterIntensity
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8488190200443167729, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_AudioClipForOnSelectEntered
+      value: 
+      objectReference: {fileID: 8300000, guid: 5fa2a1e03047f4f37a8f475c272636e7, type: 3}
+    - target: {fileID: 8488190200443167729, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_PlayAudioClipOnHoverEntered
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
