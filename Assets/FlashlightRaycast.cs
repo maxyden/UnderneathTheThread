@@ -7,6 +7,14 @@ public class FlashlightRaycast : MonoBehaviour
     public float flashlightRange = 10f; // Adjust range as needed
     private bool flashlightOn = false; // Tracks if the flashlight is on or off
 
+    public AudioClip revealSound; // Assign the sound through the Inspector
+    private AudioSource audioSource; // AudioSource to play the sound
+
+    void Start()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>(); // Add an AudioSource component
+    }
+
     void Update()
     {
         // Check if the flashlight is active
@@ -34,6 +42,10 @@ public class FlashlightRaycast : MonoBehaviour
                 if (text != null)
                 {
                     text.enabled = true; // Show text when flashlight illuminates it
+                    if (!audioSource.isPlaying) // Ensure the sound only plays once per reveal
+                    {
+                        audioSource.PlayOneShot(revealSound); // Play the assigned sound
+                    }
                 }
             }
         }
