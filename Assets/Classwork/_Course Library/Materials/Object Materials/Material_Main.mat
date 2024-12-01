@@ -40,11 +40,11 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _RimPower: 1.21
-    - _Rim_Light_Brightness: 2.59
+    - _RimPower: 1.92
+    - _Rim_Light_Brightness: 0.8
     - _Smoothness: 0.397
-    - _Toon_Ramp_Offset: 0.85
-    - _Toon_Ramp_Smoothness: 0.06
+    - _Toon_Ramp_Offset: 0.78
+    - _Toon_Ramp_Smoothness: 0.22
     m_Colors:
     - _Toon_Ramp_Tinting: {r: 0.08679241, g: 0.08679241, b: 0.08679241, a: 0}
   m_BuildTextureStacks: []
