@@ -4395,7 +4395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &456723622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7329,8 +7329,8 @@ Transform:
   m_GameObject: {fileID: 734280833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.162, y: -1.012, z: 0.093}
-  m_LocalScale: {x: 0.9966845, y: 0.020786032, z: 0.9512364}
+  m_LocalPosition: {x: 1.097, y: -1.012, z: -0.383}
+  m_LocalScale: {x: 2.5851004, y: 0.020786032, z: 1.1537547}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 325108996}
@@ -8018,7 +8018,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2051
+    m_Bits: 34
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -9495,7 +9495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &842646287
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23795,7 +23795,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2051
+    m_Bits: 34
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -28039,7 +28039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &170704303130667222
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28834,7 +28834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &360292492453894912
 Transform:
   m_ObjectHideFlags: 0
@@ -38991,7 +38991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &2600984792857785111
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -47194,7 +47194,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2051
+    m_Bits: 34
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -56009,7 +56009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &5535386415409862434
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66702,7 +66702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &7700929165913059896
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -69265,7 +69265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &8289590626908173167
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -69349,7 +69349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8302926924394830445
 Transform:
   m_ObjectHideFlags: 0
@@ -75000,7 +75000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &8556216825896680625
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -75444,7 +75444,7 @@ GameObject:
   - component: {fileID: 6264487433787825422}
   - component: {fileID: 5945997319440583519}
   m_Layer: 0
-  m_Name: Board Puzzle Fixed
+  m_Name: BoardPuzzle_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
