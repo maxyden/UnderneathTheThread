@@ -264,6 +264,68 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!1 &1838741623908386544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2568312379972897400}
+  m_Layer: 0
+  m_Name: OpenRot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2568312379972897400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838741623908386544}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9238479, z: -0, w: 0.3827598}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2180301656749128493}
+  m_LocalEulerAnglesHint: {x: 0, y: 134.991, z: 0}
+--- !u!1 &4437539268434691508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157994132509262181}
+  m_Layer: 0
+  m_Name: OpenRot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157994132509262181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4437539268434691508}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.92387867, z: -0, w: 0.38268548}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7866577430817464345}
+  m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
 --- !u!1001 &6098472238708827489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -275,17 +337,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5031643
+      value: -7.8669605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000023841858
+      value: 0.46371233
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24107105
+      value: -112.082756
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
@@ -359,6 +421,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1724797770491746925}
+    - targetCorrespondingSourceObject: {fileID: -3826972271677268404, guid: 607380a30bf2d1d418836bcf8ea20328,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2568312379972897400}
+    - targetCorrespondingSourceObject: {fileID: -5077366240286554760, guid: 607380a30bf2d1d418836bcf8ea20328,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4157994132509262181}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -7959634559745434439, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
@@ -368,6 +438,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7645694118273068173}
+    - targetCorrespondingSourceObject: {fileID: -7959634559745434439, guid: 607380a30bf2d1d418836bcf8ea20328,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5180631116293320370}
     - targetCorrespondingSourceObject: {fileID: -8523025913794370145, guid: 607380a30bf2d1d418836bcf8ea20328,
         type: 3}
       insertIndex: -1
@@ -376,7 +450,17 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1937195008534218481}
+    - targetCorrespondingSourceObject: {fileID: -8523025913794370145, guid: 607380a30bf2d1d418836bcf8ea20328,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3860407550468248370}
   m_SourcePrefab: {fileID: 100100000, guid: 607380a30bf2d1d418836bcf8ea20328, type: 3}
+--- !u!4 &2180301656749128493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3826972271677268404, guid: 607380a30bf2d1d418836bcf8ea20328,
+    type: 3}
+  m_PrefabInstance: {fileID: 6098472238708827489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4984238742603659736 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7959634559745434439, guid: 607380a30bf2d1d418836bcf8ea20328,
@@ -460,7 +544,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5180631116293320370}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -529,7 +625,7 @@ MonoBehaviour:
   m_SmoothPosition: 1
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 1
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
@@ -562,6 +658,22 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &5180631116293320370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4984238742603659736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83748d921a24c479bbf9e63dd4ea89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matchX: 0
+  matchY: 1
+  matchZ: 0
+  targetTransform: {fileID: 2568312379972897400}
 --- !u!4 &5992207863872701066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 607380a30bf2d1d418836bcf8ea20328,
@@ -651,7 +763,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3860407550468248370}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -720,7 +844,7 @@ MonoBehaviour:
   m_SmoothPosition: 1
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 1
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
@@ -753,3 +877,25 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3860407550468248370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6708675858581963006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83748d921a24c479bbf9e63dd4ea89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matchX: 0
+  matchY: 1
+  matchZ: 0
+  targetTransform: {fileID: 4157994132509262181}
+--- !u!4 &7866577430817464345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5077366240286554760, guid: 607380a30bf2d1d418836bcf8ea20328,
+    type: 3}
+  m_PrefabInstance: {fileID: 6098472238708827489}
+  m_PrefabAsset: {fileID: 0}
