@@ -326,6 +326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlight: {fileID: 6538736289324914958}
   flashlightRange: 1
+  revealSound: {fileID: 8300000, guid: 09acf107e4f361a41a662eddf2e5c709, type: 3}
 --- !u!1 &3889915892199908216
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0755a2ba17a31d643b4a27e3034d8a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 0d9ba9deac23f4ff199b989fe352e768, type: 3}
+  sound: {fileID: 8300000, guid: deddc69978c01714a891e221099cb35e, type: 3}
   volume: 1
   randomPitchVariance: 0
