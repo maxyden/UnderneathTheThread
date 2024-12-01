@@ -3,8 +3,8 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 /// <summary>
-/// Toggle between the direct and ray interactor if the direct interactor isn't touching any objects
-/// Should be placed on a ray interactor
+/// Toggle between the direct and ray interactor if the direct interactor isn't touching any objects.
+/// Should be placed on a ray interactor.
 /// </summary>
 [RequireComponent(typeof(XRRayInteractor))]
 public class ToggleRay : MonoBehaviour
@@ -24,16 +24,10 @@ public class ToggleRay : MonoBehaviour
         SwitchInteractors(false);
     }
 
-    public void ActivateRay()
+    public void ToggleRayInteractor()
     {
-        if (!TouchingObject() || forceToggle)
-            SwitchInteractors(true);
-    }
-
-    public void DeactivateRay()
-    {
-        if (isSwitched)
-            SwitchInteractors(false);
+        // Toggle the ray interactor state
+        SwitchInteractors(!isSwitched);
     }
 
     private bool TouchingObject()
@@ -45,8 +39,12 @@ public class ToggleRay : MonoBehaviour
 
     private void SwitchInteractors(bool value)
     {
-        isSwitched = value;
-        rayInteractor.enabled = value;
-        directInteractor.enabled = !value;
+        // Only switch if we're not touching an object or if forceToggle is true
+        if (!TouchingObject() || forceToggle || value != isSwitched)
+        {
+            isSwitched = value;
+            rayInteractor.enabled = value;
+            directInteractor.enabled = !value;
+        }
     }
 }
