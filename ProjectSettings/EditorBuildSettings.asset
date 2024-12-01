@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Underneath the Thread/Past Scenes/Playtest Prototype.unity
+    path: Assets/Underneath the Thread/Playtest Prototype.unity
     guid: e01cb99a8e54ec74bab05d2a0059be7a
   - enabled: 1
     path: Assets/Underneath the Thread/Underneath the Thread.unity
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Underneath the Thread/Clues Updated.unity
     guid: 01e5d0f8bd3d8084f8ec1020debdcb7d
   - enabled: 1
-    path: Assets/Underneath the Thread/Past Scenes/Finalboardscene.unity
+    path: Assets/Finalboardscene.unity
     guid: 237e5f26c47cb5d4a96d86023b67b3a6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
