@@ -6335,6 +6335,7 @@ GameObject:
   - component: {fileID: 7873280687514068556}
   - component: {fileID: 3570716147706689753}
   - component: {fileID: 604801634862359271}
+  - component: {fileID: 2117532428639782126}
   m_Layer: 0
   m_Name: Clue6
   m_TagString: Untagged
@@ -6436,8 +6437,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 604801634862359271}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayQuickSound, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -6535,7 +6536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 80c343bcd2defc14f87e885ff872d69b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 99234a1d423440444ae723d3bc14adfd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6621,6 +6622,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2117532428639782126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552527662292265724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0755a2ba17a31d643b4a27e3034d8a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 99b1a3b416c97dc4eb33d7632f513580, type: 3}
+  volume: 3
+  randomPitchVariance: 0
 --- !u!1 &1590287844528527551
 GameObject:
   m_ObjectHideFlags: 0
