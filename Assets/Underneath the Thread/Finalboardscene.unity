@@ -8213,6 +8213,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Players XR+
       objectReference: {fileID: 0}
+    - target: {fileID: 5731709592930229364, guid: 10dfa307b327bd84dbea02fe6a1a239a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6041373331260960929, guid: 10dfa307b327bd84dbea02fe6a1a239a,
         type: 3}
       propertyPath: m_HapticHoverEnterIntensity
@@ -11814,7 +11819,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
