@@ -31919,6 +31919,7 @@ GameObject:
   - component: {fileID: 4116070781948290503}
   - component: {fileID: 7544646816300223975}
   - component: {fileID: 2431990998303586639}
+  - component: {fileID: 6967661268783048155}
   m_Layer: 0
   m_Name: Clue12
   m_TagString: Untagged
@@ -31998,8 +31999,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7544646816300223975}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayQuickSound, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -32017,6 +32018,30 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MoveTransform, Assembly-CSharp
+        m_MethodName: MoveToLocation
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32061,7 +32086,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f1232d80ef987dd45aee9741c73d663a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5aa0fbd29a469114f9c98d0577e1cb63, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -32161,6 +32186,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   spawnPosition: {fileID: 5877861679179168897}
+--- !u!114 &6967661268783048155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580699240195302798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0755a2ba17a31d643b4a27e3034d8a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 5aa0fbd29a469114f9c98d0577e1cb63, type: 3}
+  volume: 4
+  randomPitchVariance: 0
 --- !u!1 &7661099308611243545
 GameObject:
   m_ObjectHideFlags: 0
